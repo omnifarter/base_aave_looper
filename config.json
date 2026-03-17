@@ -1,13 +1,13 @@
 {
     "chain": "base",
-    "collateral_token": "WETH",
-    "borrow_token": "USDC",
-    "supply_amount": 0.0005,
-    "borrow_amount": 0.50,
+    "collateral_token": "USDC",
+    "borrow_token": "WETH",
+    "supply_amount": 1.50,
+    "borrow_amount": 0.0002,
     "target_leverage": 2.0,
     "min_collateral_usd": 1,
     "anvil_funding": {
-        "WETH": "0.001",
-        "USDC": "2"
+        "USDC": "2",
+        "WETH": "0.001"
     }
 }
